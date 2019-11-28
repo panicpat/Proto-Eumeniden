@@ -1,3 +1,7 @@
+.example-card {
+  max-width: 400px;
+}
+
 .gespenst-header-image{
   background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Canterville_NETZ.jpg");
   background-size: cover;
@@ -25,5 +29,15 @@
 
 .regentrude-header-image{
   background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Regentrude.jpg");
+  background-size: cover;
+}
+
+.vagabunden-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Vagabunden.jpg");
+  background-size: cover;
+}
+
+.wittchen-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/wittchen.jpg");
   background-size: cover;
 }
