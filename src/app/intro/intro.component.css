@@ -1,0 +1,24 @@
+.gespenst-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Canterville_NETZ.jpg");
+  background-size: cover;
+}
+
+.prinz-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/prinz.jpg");
+  background-size: cover;
+}
+
+.cindy-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/cindy.jpg");
+  background-size: cover;
+}
+
+.schneek-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/schneek.jpg");
+  background-size: cover;
+}
+
+.kalteHerz-header-image{
+  background-image: url("https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Kalte Herz_Netz.jpg");
+  background-size: cover;
+}
