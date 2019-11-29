@@ -1,14 +1,97 @@
 [
   {
-    "type": "Overnight",
-    "price": 25.99
+    "id": "canterville",
+    "title": "DAS GESPENST VON CANTERVILLE",
+    "shortDescription": "Singspiel nach der Erzählung von Oscar Wilde",
+    "performances": [
+      {
+        "date": "2019-12-14T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      }
+    ]
   },
   {
-    "type": "2-Day",
-    "price": 9.99
+    "id": "prinz",
+    "title": "DER FALSCHE PRINZ",
+    "shortDescription": "Komödiantisches Schauspiel nach einem Märchen von Wilhelm Hauff",
+    "performances": [
+      {
+        "date": "2019-12-15T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      }
+    ]
   },
   {
-    "type": "Postal",
-    "price": 2.99
+    "id": "schneek",
+    "title": "DIE SCHNEEKÖNIGIN",
+    "shortDescription": "Winterliches Märchenstück nach H.C. Andersen",
+    "performances": [
+      {
+        "date": "2020-01-25T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      },
+      {
+        "date": "2020-01-26T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      }
+    ]
+  },
+  {
+    "id": "melani",
+    "title": "MELANIE UND DIE WUNDERLAMPE",
+    "shortDescription": "Komödie frei nach Märchen aus den tausend und ein Nächten",
+    "performances": [
+      {
+        "date": "2020-03-06T20:00:00.000Z",
+        "location": "ORT NOCH OFFEN",
+        "premiere": true
+      },
+      {
+        "date": "2020-03-07T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      },
+      {
+        "date": "2020-03-08T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      },
+      {
+        "date": "2020-03-21T16:00:00.000Z",
+        "location": "MÜHLSTRASSE 14"
+      },
+      {
+        "date": "2020-03-22T16:00:00.000Z",
+        "location": "BUDDEHAUS"
+      }
+    ]
+  },
+  {
+    "id": "kalteherz",
+    "title": "DAS KALTE HERZ",
+    "shortDescription": "Märchenstück nach Wilhelm Hauff",
+    "performances": []
+  },
+  {
+    "id": "regendtrude",
+    "title": "DIE REGENTRUDE",
+    "shortDescription": "Interaktives Schauspiel nach dem Märchen von Theodor Storm",
+    "performances": []
+  },
+  {
+    "id": "vagabunden",
+    "title": "DREI VAGABUNDEN",
+    "shortDescription": "Ein Theatermärchen nach Musäus",
+    "performances": []
+  },
+  {
+    "id": "wittchen",
+    "title": "SCHNEEWITTCHEN",
+    "shortDescription": "Märchenkomödie frei nach Bechstein und den Gebrüdern Grimm",
+    "performances": []
+  },
+  {
+    "id": "cindy",
+    "title": "CINDY",
+    "shortDescription": "Eine Märchenkomödie frei nach den Brüdern Grimm",
+    "performances": []
   }
 ]

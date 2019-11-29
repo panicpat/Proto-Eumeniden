@@ -1,30 +1,13 @@
-<mat-list dense>
- <mat-list-item> Pepper </mat-list-item>
- <mat-list-item> Salt </mat-list-item>
- <mat-list-item> Paprika </mat-list-item>
-</mat-list>
 
 <mat-list dense>
-  <mat-list-item >
+  <mat-list-item *ngFor="let item of items | async" >
     <img matListAvatar   fxHide fxShow.xs="true"
-    src="https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/Canterville_NETZ.jpg" alt="...">
-    <h3 matLine> DAS GESPENST VON CANTERVILLE</h3>
-    <h5 matLine style = "color:rgba(255,255,255,.7)"> SA 14.12. 16 Uhr # MÜHLSTRASSE 14</h5>
+    src="https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/{{item.id}}.jpg" alt="">
+    <h3 matLine> {{ item.title }}</h3>
+    <h5 matLine *ngFor="let performance of item.performances"
+    style = "color:rgba(255,255,255,.7)">{{performance.date | date:'d.M. // H'}} Uhr ### 
+    {{performance.location}}</h5>
   </mat-list-item>
 </mat-list>
 
-<mat-list dense>
-  <mat-list-item >
-    <mat-icon matListIcon>folder</mat-icon>
-    <h3 matLine> FROM </h3>
-    <p matLine>
-      <span> Subject </span>
-      <span class="demo-2"> -- content </span>
-    </p>
-  </mat-list-item>
-</mat-list>
 
-<div class="cart-item" *ngFor="let item of items ">
-  <span>aa</span>
-  <span>bb</span>
-</div>
