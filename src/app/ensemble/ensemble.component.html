@@ -2,7 +2,7 @@
 <mat-list dense>
   <mat-list-item *ngFor="let item of items | async" >
     <img matListAvatar   fxHide fxShow.xs="true"
-    src="https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/{{item.id}}.jpg" alt="">
+    src="https://cdn.jsdelivr.net/gh/panicpat/Proto-Eumeniden@master/src/{{item.id}}.jpg" alt="/src/{{item.id}}.jpg">
     <h3 matLine> {{ item.title }}</h3>
     <h5 matLine *ngFor="let performance of item.performances"
     style = "color:rgba(255,255,255,.7)">{{performance.date | date:'d.M. // H'}} Uhr ### 
