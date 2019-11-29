@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { PerformanceService } from "../performance.service";
+
 @Component({
   selector: 'app-ensemble',
   templateUrl: './ensemble.component.html',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnsembleComponent implements OnInit {
 
-  constructor() { }
+  items;
+
+  constructor(
+        private performanceService: PerformanceService
+  ) { 
+
+    this.items = performanceService.getPerformancesChildren();
+  }
 
   ngOnInit() {
   }

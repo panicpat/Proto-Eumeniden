@@ -12,6 +12,7 @@ import {DemoMaterialModule} from './material-module';
 import { AppComponent } from "./app.component";
 import { IntroComponent } from "./intro/intro.component";
 import { EnsembleComponent } from "./ensemble/ensemble.component";
+import { PerformanceService } from './performance.service';
 
 @NgModule({
   declarations: [AppComponent, IntroComponent, EnsembleComponent],
@@ -28,7 +29,7 @@ import { EnsembleComponent } from "./ensemble/ensemble.component";
     ])
   ],
   exports: [RouterModule],
-  providers: [],
+  providers: [PerformanceService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
